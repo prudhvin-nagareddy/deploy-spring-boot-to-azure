@@ -5,7 +5,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.in28minutes.rest.webservices</groupId>
-	<artifactId>07-hello-world-rest-api</artifactId>
+	<artifactId>hello-world-webapp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<description>Demo project for Spring Boot</description>
@@ -42,7 +42,7 @@
 		</dependency>
 	</dependencies>
 	<build>
-		<finalName>hello-world-rest-api</finalName>
+		<finalName>hello-world-webapp</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
@@ -54,10 +54,10 @@
 				<version>1.7.0</version>
 				<configuration>
 					<schemaVersion>V2</schemaVersion>
-					<resourceGroup>hello-world-rest-api-v2-rg</resourceGroup>
-					<appName>hello-world-rest-api-v2-in28minutes</appName>
-					<pricingTier>B1</pricingTier>
-					<region>westeurope</region>
+					<resourceGroup>stguse2-destinycdl-dev-rg</resourceGroup>
+					<appName>stguse2-destinycdl-dev-app</appName>
+					<pricingTier>S1</pricingTier>
+					<region>eastus2</region>
 					<appSettings>
 						<property>
 							<name>JAVA_OPTS</name>
